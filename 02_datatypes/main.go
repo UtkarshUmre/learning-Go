@@ -2,7 +2,10 @@ package main
 
 import "fmt"
 
+const LoginToken string = "gbddhjklm"
+
 func main() {
+	fmt.Println(LoginToken)
 	fmt.Println("variables, constants and datatypes in go programming")
 
 	//string datatype
