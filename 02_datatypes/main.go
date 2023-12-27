@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-const LoginToken string = "gbddhjklm"
+const LoginToken string = "gbddhjklm"  //public
 
 func main() {
 	fmt.Println(LoginToken)
