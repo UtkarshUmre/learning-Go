@@ -1,8 +1,6 @@
-
-
 # GoLang Journey 🚀
 
-![GoLang](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcixH8DuHU4wthKK7RT2B75rE2Qrv9uVz4IHEqG86oXrPxLyuU5aIr39OObwlD1TSs1io&usqp=CAU)
+<img src="https://cdn3d.iconscout.com/3d/free/thumb/free-go-language-logo-6563565-5453028.png" width="200" height="200">
 
 Welcome to my GoLang learning repository! 🌟 This space is a documentation of my journey diving into the world of GoLang - from its syntax to its applications.
 
@@ -46,8 +44,7 @@ GoLang, often dubbed as the language of the future, is designed to offer the eas
 
 This repository will evolve as I progress in my GoLang journey. Feel free to explore, contribute, or connect with me:
 
-- **Twitter:** [@utkarshumre_](https://twitter.com/utkarshumre_)
+- **Twitter:** [@utkarshumre\_](https://twitter.com/utkarshumre_)
 - **LinkedIn:** [Utkarsh Umre](https://in.linkedin.com/in/utkarsh-umre-250293222)
 
 Let's learn and code together! Happy coding! 🖥️💻
-
