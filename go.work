@@ -1,6 +1,8 @@
-go 1.20.5
+go 1.21.4
 
 use (
 	./01_helloworld
 	./02_datatypes
+	./05_mytime
+	./06_builds
 )
