@@ -7,7 +7,8 @@ Pointers are a fundamental concept in programming languages, and Go is no except
 ## What are Pointers?
 
 At its core, a pointer is a variable that holds the memory address of another variable. Instead of holding the actual value, a pointer holds the location of the value in memory.
-Declaring and Using Pointers in Go
+
+## Declaring and Using Pointers in Go
 
 In Go, declaring a pointer is straightforward. Let's consider an example:
 
