@@ -1,6 +1,7 @@
 # Understanding Pointers in Go
 
 <a href="https://ibb.co/n7Jhh3y"><img src="https://i.ibb.co/Vg4XXHG/Untitled-2023-12-30-1749.png" alt="Untitled-2023-12-30-1749" border="0"></a>
+
 Pointers are a fundamental concept in programming languages, and Go is no exception. They provide a powerful way to manage memory and work with data. In Go, pointers allow direct access to memory, making them essential for efficient memory management and handling complex data structures.
 
 ## What are Pointers?
