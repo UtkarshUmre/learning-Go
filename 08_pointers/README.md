@@ -33,9 +33,9 @@ func main() {
 
 In this example:
 
-    & is the address-of operator, used to get the memory address of a variable.
+& is the address-of operator, used to get the memory address of a variable.
 
-    * is the dereference operator, used to access the value at the memory address stored in a pointer.
+- is the dereference operator, used to access the value at the memory address stored in a pointer.
 
 ## Benefits of Pointers
 
@@ -45,7 +45,7 @@ Pointers enable efficient memory usage by allowing direct access and manipulatio
 
 ### Passing by Reference:
 
-    When passing large data structures to functions, passing a pointer to the data rather than the data itself avoids unnecessary copying, improving performance.
+When passing large data structures to functions, passing a pointer to the data rather than the data itself avoids unnecessary copying, improving performance.
 
 ### Working with Data Structures:
 
@@ -53,8 +53,8 @@ Pointers are crucial when dealing with complex data structures like linked lists
 
 ## Common Pitfalls
 
-    Nil Pointers: Uninitialized pointers point to nil (zero value) and must be assigned a valid memory address before use. Dereferencing a nil pointer results in a runtime panic.
-    Memory Management: Improper use of pointers can lead to memory leaks or dangling pointers, causing unpredictable behavior.
+Nil Pointers: Uninitialized pointers point to nil (zero value) and must be assigned a valid memory address before use. Dereferencing a nil pointer results in a runtime panic.
+Memory Management: Improper use of pointers can lead to memory leaks or dangling pointers, causing unpredictable behavior.
 
 ## Conclusion
 
