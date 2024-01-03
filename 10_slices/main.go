@@ -12,4 +12,7 @@ func main() {
 	fmt.Println("fruitlist length is", len(fruitList))
 	fmt.Printf("fruitlist is of type %T\n", fruitList)
 
+	fruitList = append(fruitList, "pomegranate", "dragonfruit", "coconut")
+	fmt.Println(fruitList)
+
 }
