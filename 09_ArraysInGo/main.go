@@ -14,4 +14,10 @@ func main() {
 	fruitList[4] = "jackfruit"
 
 	fmt.Println("fruit list is", fruitList)
+	fmt.Println("fruit list is of length", len(fruitList))
+
+	var vegList = [3]string{"potato", "beans", "mushroom"}
+	fmt.Println(vegList)
+	fmt.Println("vegList length is", len(vegList))
+
 }
