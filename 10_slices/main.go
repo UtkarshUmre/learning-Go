@@ -15,4 +15,7 @@ func main() {
 	fruitList = append(fruitList, "pomegranate", "dragonfruit", "coconut")
 	fmt.Println(fruitList)
 
+	fruitList = append(fruitList[1:3])
+	fmt.Println(fruitList)
+
 }
