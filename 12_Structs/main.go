@@ -8,6 +8,8 @@ func main() {
 
 	utkarsh := User{"utkarsh", "utkarsh@mlh.io", true, 21}
 	fmt.Println(utkarsh)
+	fmt.Printf("utkarsh details are %+v\n", utkarsh)
+	fmt.Printf("name is %v and email is %v\n", utkarsh.Name, utkarsh.Email)
 }
 
 type User struct {
