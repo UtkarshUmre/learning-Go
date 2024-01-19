@@ -1,0 +1,1 @@
+the content written in this string needs to go in the file in order to learn file handling in go language
