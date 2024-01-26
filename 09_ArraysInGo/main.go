@@ -3,21 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("arrays in go lang")
+	fmt.Println("array in go lang")
 
-	var fruitList [5]string
+	// var furnitureList [4]string
 
-	fruitList[0] = "mango"
-	fruitList[1] = "apple"
-	fruitList[2] = "banana"
-	fruitList[3] = "guava"
-	fruitList[4] = "jackfruit"
+	// furnitureList[0] = "table"
+	// furnitureList[1] = "chair"
+	// furnitureList[2] = "sofa"
+	// furnitureList[3] = "cupboard"
 
-	fmt.Println("fruit list is", fruitList)
-	fmt.Println("fruit list is of length", len(fruitList))
+	var furnitureList = [3]string{"sofa", "chair", "talbe"}
 
-	var vegList = [3]string{"potato", "beans", "mushroom"}
-	fmt.Println(vegList)
-	fmt.Println("vegList length is", len(vegList))
+	fmt.Println("furniture  list is ", furnitureList)
+	fmt.Printf("furniture list is of type %T\n", furnitureList)
+	fmt.Println("furniture list if of lenght:", len(furnitureList))
 
 }
