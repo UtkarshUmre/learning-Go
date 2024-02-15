@@ -6,7 +6,8 @@ func main() {
 
 	fmt.Println("struct in go")
 	Nathan := User{"Nathan", "Nathan@gmail", 23, true}
-	fmt.Println(Nathan)
+	fmt.Printf("nathans details are %+v\n", Nathan)
+	fmt.Printf("name is %v and emai is %v \n", Nathan.Name, Nathan.Email)
 
 }
 
