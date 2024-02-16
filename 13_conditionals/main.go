@@ -3,15 +3,17 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("conditionals in go")
 
-	loginCount := 25
+	loginCount := 15
+
 	var result string
 
 	if loginCount < 10 {
-		result = "regular user "
+		result = " regular user"
+	} else if loginCount > 20 {
+		result = "non regular user"
 	} else {
-		result = "not regular user"
+		result = "watch out "
 	}
 
 	fmt.Println(result)
