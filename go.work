@@ -5,4 +5,5 @@ use (
 	./02_datatypes
 	./05_mytime
 	./06_builds
+	./16_functions
 )

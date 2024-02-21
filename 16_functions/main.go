@@ -3,17 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("functions in go lang")
-
-	greet()
-	add := adder(9, 1)
-	fmt.Println(add)
+	fmt.Println("functions in golang")
+	fmt.Print("enter daddy here: ")
+	daddy()
 }
 
-func adder(x int, y int) int {
-	return x + y
-}
-
-func greet() {
-	fmt.Println("hello how are you ")
+func daddy() {
+	var input string
+	fmt.Scan(&input)
+	fmt.Println("bloody", input)
 }
