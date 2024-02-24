@@ -12,4 +12,6 @@ func daddy() {
 	var input string
 	fmt.Scan(&input)
 	fmt.Println("bloody", input)
+
+	fmt.Println("to full fill github graph")
 }
