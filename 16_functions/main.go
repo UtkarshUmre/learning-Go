@@ -1,26 +1,27 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	fmt.Print("please enter your name: ")
-	greet()
 
-	Result := adder(4, 7)
-	fmt.Println("added value is:", Result)
+	fmt.Println("functions in go")
+	greeter()
 
+	result := adder(2, 7)
+	fmt.Println("Result is:", result)
+
+}
+
+func greeter() {
+	fmt.Println("hello all")
 }
 
 func adder(valOne int, valTwo int) int {
-	add := valOne + valTwo
 
-	return add
+	return valOne + valTwo
+
 }
 
-func greet() {
-	var input string
-	fmt.Scan(&input)
-	fmt.Println("hello", input)
+func proAdder(values ...int) {
+
 }
