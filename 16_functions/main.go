@@ -10,6 +10,9 @@ func main() {
 	result := adder(2, 7)
 	fmt.Println("Result is:", result)
 
+	proResult := proAdder(1, 2, 5, 3, 9, 4)
+	fmt.Println("result is:", proResult)
+
 }
 
 func greeter() {
@@ -22,6 +25,13 @@ func adder(valOne int, valTwo int) int {
 
 }
 
-func proAdder(values ...int) {
+func proAdder(values ...int) int {
+	total := 0
+
+	for _, val := range values {
+		total += val
+	}
+
+	return total
 
 }

@@ -10,7 +10,11 @@ func main() {
 
 	fmt.Println(days)
 
-	for i := 0; i < len(days); i++ {
+	// for i := 0; i < len(days); i++ {
+	// 	fmt.Println(days[i])
+	// }
+
+	for i := range days {
 		fmt.Println(days[i])
 	}
 
